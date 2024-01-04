@@ -1,11 +1,8 @@
-# ServerMissionFilesRepository
+# Server Mission Files
 
-Download the map image here for the CE Editor tool (.PNG): https://drive.google.com/file/d/1iiW92-y4A2Zvp1UB2Ru2HEhZ3oB7oIS3/view?usp=sharing
+CE files are here: https://github.com/M4ketech/CE_Pripyat
 
-
-
-
-Pripyat requires GSC Gameworld Assets mod. It is a dependency.
-
+Pripyat **requires** GSC Gameworld Assets mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2868091107
+**It is a dependency**
 
 for support, visit (https://discord.gg/xUbshXbvVK)https://discord.gg/xUbshXbvVK
