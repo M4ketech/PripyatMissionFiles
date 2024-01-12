@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
-	
 	<event name="StaticDrone">
 		<zone smin="1" smax="3" dmin="3" dmax="5" r="45"/>
 		<pos x="10160.5" z="2873.64" a="0"/>
@@ -116,7 +115,6 @@
 		<pos x="16247.7" z="15873.3" a="0"/>
 		<pos x="16585.8" z="16423.7" a="0"/>
 	</event>
-
 	<event name="VehicleCivilianSedan">
 		<pos x="15209.8" y="199.588" z="3878.76" a="39.8459"/>
 		<pos x="3846.79" y="202.509" z="16556.9" a="0"/>
@@ -274,7 +272,7 @@
 		<pos x="4579.89" y="208.358" z="5897.71" a="11.0509"/>
 		<pos x="1547.09" y="202.488" z="17942.1" a="0"/>
 	</event>
- <event name="StaticHeliCrash">
+	<event name="StaticHeliCrash">
 		<zone smin="0" smax="0" dmin="2" dmax="4" r="45" />
 		<pos x="17313.8" z="18493" a="-1" />
 		<pos x="14637.3" z="12593.1" a="-1" />
@@ -501,7 +499,7 @@
 		<pos x="13977.732422" z="14897.462891" />
 		<pos x="1363.39" z="9308.64" />
 	</event>
-<!-- configured for pripyat -->
+	<!-- configured for pripyat -->
 	 <event name="StaticContaminatedArea">
 		<zone smin="0" smax="0" dmin="5" dmax="8" r="75" />
 		<!-- Duga -->
@@ -1272,7 +1270,7 @@
 		<pos x="3518.464" z="9122.509" a="0" y="310.821" group="Traffic_Vybor"/>
 	</event>
 
- <!--   <event name="VehicleTransitBus" /> -->
+	<!-- <event name="VehicleTransitBus" /> -->
     <event name="InfectedVillage" />
     <event name="InfectedSolitude" />
     <event name="InfectedArmy" />
@@ -1281,11 +1279,5 @@
     <event name="InfectedPolice" />
     <event name="InfectedFirefighter" />
     <event name="InfectedPrisoner" />
-	<!-- Using Ambient system for these -->
- <!--   <event name="AnimalDeer" />
-    <event name="AnimalCow" />
-    <event name="AnimalSheep" />
-    <event name="AnimalRoeDeer" /> -->
     <event name="AnimalWolf" />
- <!--   <event name="AnimalWildBoar" /> -->
 </eventposdef>
