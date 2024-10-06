@@ -1177,6 +1177,13 @@
 		<pos x="16896.3" y="220.406" z="11945.9" a="0"/>
 		<pos x="11879.2" y="201.394" z="18114.5" a="0"/>
 	</event>
+	<event name="StaticAirplaneCrate">
+		<zone smin="0" smax="0" dmin="0" dmax="0" r="0" />
+				<pos x="15588.100" z="4410.460" />
+				<pos x="16277.600" z="11466" />
+				<pos x="17430.100" z="11657.200" />
+				<pos x="7649.130" z="13078" />
+	</event>
 	<event name="StaticTrain">   <!-- NOT UPDATED FOR PRIPYAT -->
 		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
     	<pos x="5587.466" z="2063.353" a="0" y="7.75" group="Train_Abandoned_Cherno"/>

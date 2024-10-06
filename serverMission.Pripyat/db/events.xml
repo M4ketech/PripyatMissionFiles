@@ -661,7 +661,7 @@
         <children/>
     </event>
     <event name="StaticAirplaneCrate">
-        <nominal>9</nominal>
+        <nominal>1</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>1800</lifetime>
