@@ -20,7 +20,7 @@
             <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_White"/>
         </children>
     </event>
-    <event name="AnimalBear">
+    <event name="AmbientBear">
         <nominal>0</nominal>
         <min>2</min>
         <max>2</max>
@@ -37,8 +37,8 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_UrsusArctos"/>
         </children>
     </event>
-    <event name="AnimalCow">
-        <nominal>7</nominal>
+    <event name="AmbientCow">
+        <nominal>2</nominal>
         <min>2</min>
         <max>3</max>
         <lifetime>180</lifetime>
@@ -59,8 +59,8 @@
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_White"/>
         </children>
     </event>
-    <event name="AnimalDeer">
-        <nominal>9</nominal>
+    <event name="AmbientDeer">
+        <nominal>2</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>180</lifetime>
@@ -77,8 +77,8 @@
             <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CervusElaphusF"/>
         </children>
     </event>
-    <event name="AnimalGoat">
-        <nominal>8</nominal>
+    <event name="AmbientGoat">
+        <nominal>2</nominal>
         <min>1</min>
         <max>3</max>
         <lifetime>180</lifetime>
@@ -97,8 +97,8 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_White"/>
         </children>
     </event>
-    <event name="AnimalPig">
-        <nominal>6</nominal>
+    <event name="AmbientPig">
+        <nominal>2</nominal>
         <min>1</min>
         <max>2</max>
         <lifetime>180</lifetime>
@@ -114,7 +114,7 @@
             <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_SusDomesticus"/>
         </children>
     </event>
-    <event name="AnimalRoeDeer">
+    <event name="AmbientRoeDeer">
         <nominal>10</nominal>
         <min>2</min>
         <max>3</max>
@@ -132,10 +132,10 @@
             <child lootmax="0" lootmin="0" max="4" min="2" type="Animal_CapreolusCapreolusF"/>
         </children>
     </event>
-    <event name="AnimalSheep">
-        <nominal>5</nominal>
-        <min>4</min>
-        <max>5</max>
+    <event name="AmbientSheep">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>3</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -150,9 +150,9 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Animal_OvisAriesF"/>
         </children>
     </event>
-    <event name="AnimalWildBoar">
-        <nominal>7</nominal>
-        <min>1</min>
+    <event name="AmbientWildBoar">
+        <nominal>2</nominal>
+        <min>2</min>
         <max>3</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -629,9 +629,9 @@
         </children>
     </event>
     <event name="ItemPlanks">
-        <nominal>50</nominal>
-        <min>40</min>
-        <max>50</max>
+        <nominal>30</nominal>
+        <min>25</min>
+        <max>35</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <saferadius>250</saferadius>
@@ -672,7 +672,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
             <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
@@ -1115,6 +1115,24 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Blue"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
+        </children>
+    </event>
+	<event name="StaticDrone">
+        <nominal>3</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="4" lootmin="3" max="4" min="3" type="land_chz_spyaircraft"/>
         </children>
     </event>
 </events>
