@@ -105,7 +105,6 @@
 	</container>
 </group>
 
-
 <group name="Land_Jupiter_Building_Plant_1_3" lootmax="20">
 	<usage name="Industrial" />
 	<usage name="Military" />
@@ -183,7 +182,6 @@
 	</container>
 </group>
 
-
 <group name="Land_Jupiter_Building_Plant_1_1" lootmax="14">
 	<usage name="Industrial" />
 	<usage name="Military" />
@@ -226,7 +224,6 @@
 		<point pos="-6.308146 -8.083066 -20.793978" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="Land_Jupiter_Building_Plant_1_2" lootmax="14">
 	<usage name="Industrial" />
@@ -291,7 +288,6 @@
 	</container>
 </group>
 
-
 <group name="Land_Jupiter_Building_Plant_1_8" lootmax="14">
 	<usage name="Industrial" />
 	<usage name="Military" />
@@ -335,10 +331,8 @@
 		<point pos="7.170485 3.035998 -13.166806" range="1" height="1" /> 
 	</container>
 </group>
-
-		
-	<!--Land_ST Group -->	
-		<group name="land_ST_Barracks_1" lootmax="4">
+<!--Land_ST Group -->	
+	<group name="land_ST_Barracks_1" lootmax="4">
 	<usage name="Military" />
 	<container name="lootFloor" lootmax="4">
 		<point pos="-9.768752 -4.130848 -0.706790" range="1" height="1" /> 
@@ -398,12 +392,7 @@
 		<point pos="-0.188857 0.126984 -2.297509" range="1" height="1" /> 
 	</container>
 </group>
-
-
-
-
 <!--NZJOCKO added -->
-
 <group name="Land_Darkvalley_x18lab_5" lootmax="6">
 	<value name="Tier4" />
 	<usage name="Military" />
@@ -485,9 +474,6 @@
 	</container>
 </group>
 
-
-
-
 <group name="Land_Limansk_city_building_34" lootmax="4">
 	<usage name="Village" />
 	<usage name="Town"/>
@@ -499,7 +485,6 @@
 		<point pos="-19.027782 -4.086468 5.394523" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_janov_boudicka" lootmax="3">
 	<container name="lootFloor" lootmax="2">
@@ -521,10 +506,7 @@
 		<point pos="-3.262322 -15.780985 -0.628026" range="1" height="1" /> 
 	</container>
 </group>
-
-
 <!-- new reactor names START-->
-
 <group name="land_chz_chnpp_hlavni_2_1b" lootmax="4">
 	<usage name="ContaminatedArea"/>
 	<usage name="Military" />
@@ -637,9 +619,7 @@
 		<point pos="-25.220390 19.840002 5.803738" range="1" height="1" /> 
 	</container>
 </group>
-
 <!-- new reactor names END-->
-
 <group name="Land_Predbannik_fire_station_red" lootmax="8">
 	<usage name="Firefighter" />
 	<container name="lootFloor" lootmax="8">
@@ -667,7 +647,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_tabor_jeviste" lootmax="4">
 	<usage name="Village" />
 	<usage name="Town"/>
@@ -681,7 +660,6 @@
 		<point pos="2.589082 -4.664786 0.575555" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="Land_Military_building2" lootmax="6">
 	<usage name="Industrial" />
@@ -728,8 +706,6 @@
 		<point pos="0.835835 -3.252422 0.758731" range="1" height="1" /> 
 	</container>
 </group>
-
-
 
 <group name="Land_Deadcity_building11" lootmax="20">
 	<usage name="Farm" />
@@ -1150,7 +1126,6 @@
 	</container>
 </group>
 
-
 <group name="Land_czb_build_16f_II_60" lootmax="10">
 	<usage name="Office" />
 	<usage name="Town" />
@@ -1228,7 +1203,6 @@
 		<point pos="-1.750473 -27.378414 -19.726065" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="Land_czb_build_10f_1" lootmax="35">
 	<usage name="Town"/>
@@ -1598,7 +1572,6 @@
 	</container>
 </group>
 
-
 <group name="Land_Escape_village_house2_red" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Village" />
@@ -1617,7 +1590,6 @@
 		<point pos="2.471057 -2.679192 4.370119" range="1" height="1" /> 
 	</container>
 </group>
-
 <!-- copy of above for white NZJOCKO -->
 <group name="Land_Escape_village_house2_white" lootmax="4">
 	<usage name="Town"/>
@@ -1638,55 +1610,54 @@
 	</container>
 </group>
 
-
-		<group name="Land_Underground_Storage_Barracks" lootmax="20">
-			<!--	<value name="Tier1" /> -->
-				<usage name="Military" />
-				<usage name="Underground" />
-				<container name="lootFloor" lootmax="10">
-						<category name="containers" />
-						<category name="clothes" />
-						<tag name="floor" />
-						<tag name="ground" />
-						<point pos="-3.064941 0.479675 -3.885498" range="0.203125" height="0.507813" />
-						<point pos="-0.017579 1.215576 -5.425171" range="0.203125" height="0.507813" />
-						<point pos="-0.890016 0.410583 3.420654" range="0.237500" height="0.593750" />
-						<point pos="-2.343750 0.479675 -4.011719" range="0.271875" height="0.679688" />
-						<point pos="-2.284302 0.798462 0.318360" range="0.271875" height="0.679688" />
-						<point pos="-4.997681 0.423523 -3.846559" range="0.275940" height="0.689850" />
-						<point pos="-7.490235 1.214661 4.595335" range="0.306250" height="0.765625" />
-						<point pos="0.389649 1.214722 -4.682007" range="0.306250" height="0.765625" />
-						<point pos="0.356810 0.424866 -4.719604" range="0.340625" height="0.532429" />
-						<point pos="-9.225708 1.215820 3.444581" range="0.340625" height="0.851563" />
-						<point pos="-1.282349 0.797058 0.330444" range="0.375000" height="0.937500" />
-						<point pos="-4.100708 0.795105 0.216308" range="0.375000" height="0.937500" />
-						<point pos="0.966797 0.795349 0.370361" range="0.409375" height="1.023438" />
-						<point pos="1.742187 0.797729 0.061035" range="0.409375" height="1.023438" />
-						<point pos="-7.381960 0.424866 4.666745" range="0.409375" height="0.532450" />
-						<point pos="-9.307616 0.424866 3.638550" range="0.443750" height="0.533289" />
-						<point pos="-5.377931 1.215576 4.962768" range="0.478125" height="1.195313" />
-						<point pos="2.948608 1.215515 -5.370728" range="0.512500" height="1.281250" />
-				</container>
-				<container name="lootWeapons" lootmax="10">
-						<category name="weapons" />
-						<point pos="-0.267823 0.408752 3.066895" range="0.134375" height="0.335938" />
-						<point pos="-1.465333 0.412659 3.611694" range="0.168750" height="0.421875" />
-						<point pos="-6.660279 0.424072 -3.371827" range="0.237549" height="0.593872" />
-						<point pos="-6.100341 0.424072 -1.781493" range="0.252994" height="0.632486" />
-						<point pos="7.171264 1.216309 -6.062134" range="0.266846" height="0.667114" />
-						<point pos="6.871826 0.424866 -4.518554" range="0.306250" height="0.532127" />
-						<point pos="4.617065 1.215942 -4.808594" range="0.306250" height="0.765625" />
-						<point pos="-1.391114 1.215088 4.906860" range="0.340625" height="0.851555" />
-						<point pos="-2.848998 1.215881 4.665405" range="0.340625" height="0.851563" />
-						<point pos="7.566285 1.216064 4.547118" range="0.375000" height="0.937500" />
-						<point pos="6.852783 1.214539 -4.588868" range="0.375000" height="0.937500" />
-						<point pos="2.348510 1.215332 4.633667" range="0.375000" height="0.937500" />
-						<point pos="5.743530 1.215210 5.091919" range="0.409375" height="1.023438" />
-						<point pos="4.508300 0.424866 -5.005737" range="0.409375" height="0.533388" />
-						<point pos="4.162598 1.215271 5.252929" range="0.409375" height="1.023438" />
-				</container>
-		</group>
-		<group name="Land_Underground_Floor_Comms" lootmax="10">
+<group name="Land_Underground_Storage_Barracks" lootmax="20">
+	<!--	<value name="Tier1" /> -->
+	<usage name="Military" />
+	<usage name="Underground" />
+	<container name="lootFloor" lootmax="10">
+	<category name="containers" />
+	<category name="clothes" />
+	<tag name="floor" />
+	<tag name="ground" />
+		<point pos="-3.064941 0.479675 -3.885498" range="0.203125" height="0.507813" />
+		<point pos="-0.017579 1.215576 -5.425171" range="0.203125" height="0.507813" />
+		<point pos="-0.890016 0.410583 3.420654" range="0.237500" height="0.593750" />
+		<point pos="-2.343750 0.479675 -4.011719" range="0.271875" height="0.679688" />
+		<point pos="-2.284302 0.798462 0.318360" range="0.271875" height="0.679688" />
+		<point pos="-4.997681 0.423523 -3.846559" range="0.275940" height="0.689850" />
+		<point pos="-7.490235 1.214661 4.595335" range="0.306250" height="0.765625" />
+		<point pos="0.389649 1.214722 -4.682007" range="0.306250" height="0.765625" />
+		<point pos="0.356810 0.424866 -4.719604" range="0.340625" height="0.532429" />
+		<point pos="-9.225708 1.215820 3.444581" range="0.340625" height="0.851563" />
+		<point pos="-1.282349 0.797058 0.330444" range="0.375000" height="0.937500" />
+		<point pos="-4.100708 0.795105 0.216308" range="0.375000" height="0.937500" />
+		<point pos="0.966797 0.795349 0.370361" range="0.409375" height="1.023438" />
+		<point pos="1.742187 0.797729 0.061035" range="0.409375" height="1.023438" />
+		<point pos="-7.381960 0.424866 4.666745" range="0.409375" height="0.532450" />
+		<point pos="-9.307616 0.424866 3.638550" range="0.443750" height="0.533289" />
+		<point pos="-5.377931 1.215576 4.962768" range="0.478125" height="1.195313" />
+		<point pos="2.948608 1.215515 -5.370728" range="0.512500" height="1.281250" />
+	</container>
+	<container name="lootWeapons" lootmax="10">
+	<category name="weapons" />
+		<point pos="-0.267823 0.408752 3.066895" range="0.134375" height="0.335938" />
+		<point pos="-1.465333 0.412659 3.611694" range="0.168750" height="0.421875" />
+		<point pos="-6.660279 0.424072 -3.371827" range="0.237549" height="0.593872" />
+		<point pos="-6.100341 0.424072 -1.781493" range="0.252994" height="0.632486" />
+		<point pos="7.171264 1.216309 -6.062134" range="0.266846" height="0.667114" />
+		<point pos="6.871826 0.424866 -4.518554" range="0.306250" height="0.532127" />
+		<point pos="4.617065 1.215942 -4.808594" range="0.306250" height="0.765625" />
+		<point pos="-1.391114 1.215088 4.906860" range="0.340625" height="0.851555" />
+		<point pos="-2.848998 1.215881 4.665405" range="0.340625" height="0.851563" />
+		<point pos="7.566285 1.216064 4.547118" range="0.375000" height="0.937500" />
+		<point pos="6.852783 1.214539 -4.588868" range="0.375000" height="0.937500" />
+		<point pos="2.348510 1.215332 4.633667" range="0.375000" height="0.937500" />
+		<point pos="5.743530 1.215210 5.091919" range="0.409375" height="1.023438" />
+		<point pos="4.508300 0.424866 -5.005737" range="0.409375" height="0.533388" />
+		<point pos="4.162598 1.215271 5.252929" range="0.409375" height="1.023438" />
+	</container>
+</group>
+<group name="Land_Underground_Floor_Comms" lootmax="10">
 				<usage name="Military" />
 			<!--	<value name="Tier1" /> -->
 				<container name="lootFloor" lootmax="10">
@@ -2649,24 +2620,6 @@
 		<point pos="26.590857 -14.450177 16.989380" range="1" height="1" /> 
 	</container>
 </group>
-
-<!--
-<group name="land_chz_obchod_svetluska" lootmax="4">
-	<usage name="Town" />
-	<usage name="Farm" />
-	<usage name="Hunting" />
-	<container name="lootFloor" lootmax="4">
-		<point pos="4.238986 -3.016806 8.645023" range="0.5" height="1.5" /> 
-		<point pos="-7.619623 -3.218475 -15.919700" range="0.5" height="1.5" /> 
-		<point pos="-1.462509 -3.213717 -13.204906" range="0.5" height="1.5" /> 
-		<point pos="-3.452251 -3.208583 -19.159555" range="0.5" height="1.5" /> 
-		<point pos="-2.102826 -3.224980 -28.013687" range="0.5" height="1.5" /> 
-		<point pos="3.081566 -3.239407 -26.722075" range="0.5" height="1.5" /> 
-		<point pos="5.847424 -3.233306 -21.689413" range="0.5" height="1.5" /> 
-		<point pos="5.847424 -3.233306 -21.689413" range="0.5" height="1.5" /> 
-	</container>
-</group>
--->
 
 <group name="land_chz_obchod_svetluska" lootmax="13">
 	<usage name="Town"/>
@@ -4088,34 +4041,7 @@
 		<point pos="-13.260244 -7.831732 9.727417" range="1" height="1" /> 
 	</container>
 </group>
-
 <!-- BOBA added end -->		
-		
-		
-<!-- ADDED BACK IN -->
-
-<!--
-		<group name="Land_Office_Municipal2" lootmax="0">
-				<usage name="Town" />
-				<usage name="Office" />
-				<container name="lootFloor" lootmax="0">
-						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />
-						<tag name="floor" />
-				</container>
-				<container name="lootshelves" lootmax="0">
-						<category name="clothes" />
-						<category name="books" />
-						<tag name="shelves" />
-				</container>
-				<container name="lootweapons" lootmax="0">
-						<category name="weapons" />
-						<category name="explosives" />
-				</container>
-		</group>
--->
-
 <group name="Land_Office_Municipal2" lootmax="35">
 			<usage name="Military"/>
 			<usage name="Medic"/>
@@ -7150,17 +7076,8 @@
 		<point pos="-1.941195 -1.053712 -0.278531" range="1" height="1" /> 
 	</container>
 </group>
-
-
-
-
-<!--
-				Dead City 
--->
-
-
-
-	<group name="Land_Deadcity_building1" lootmax="20">
+<!-- Dead City -->
+<group name="Land_Deadcity_building1" lootmax="20">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<container name="lootFloor" lootmax="20">
@@ -7370,13 +7287,8 @@
  <point pos="4.365479 -2.594913 10.718753" range="0.500000" height="1.500000" />
 	</container>
 </group>
-
-
-<!--
-				Marsh 
--->
-
-		<group name="Land_Marshes_church" lootmax="15">
+<!-- Marsh -->
+<group name="Land_Marshes_church" lootmax="15">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7729,7 +7641,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_20" lootmax="6">
+<group name="Land_Marshes_structures_20" lootmax="6">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7748,7 +7660,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_21" lootmax="6">
+<group name="Land_Marshes_structures_21" lootmax="6">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7767,7 +7679,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_22" lootmax="5">
+<group name="Land_Marshes_structures_22" lootmax="5">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7785,7 +7697,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_23" lootmax="3">
+<group name="Land_Marshes_structures_23" lootmax="3">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7800,7 +7712,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_24" lootmax="4">
+<group name="Land_Marshes_structures_24" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7815,7 +7727,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_25" lootmax="4">
+<group name="Land_Marshes_structures_25" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7830,7 +7742,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_26" lootmax="4">
+<group name="Land_Marshes_structures_26" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7845,7 +7757,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_27" lootmax="4">
+<group name="Land_Marshes_structures_27" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7862,7 +7774,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_28" lootmax="4">
+<group name="Land_Marshes_structures_28" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7879,7 +7791,7 @@
 	</container>
 </group>
 
-	<group name="Land_Marshes_structures_29" lootmax="6">
+<group name="Land_Marshes_structures_29" lootmax="6">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -7899,18 +7811,10 @@
  <point pos="-4.564453 -4.451619 -2.753418" range="0.500000" height="1.500000" />
 	</container>
 </group>
-
-
-
-
-<!--
-				Agroprom Buildings New Method (AOD)
--->
-
-	<group name="Land_Agroprom_south_prison" lootmax="4">
+<!-- Agroprom Buildings New Method (AOD) -->
+<group name="Land_Agroprom_south_prison" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Police" />
-	
 	<container name="lootFloor" lootmax="4">
 	<category name="tools" />
 	<category name="containers" />
@@ -7923,7 +7827,7 @@
 	</container>
 </group>
 
-	<group name="Land_Agroprom_south_outpost1" lootmax="2">
+<group name="Land_Agroprom_south_outpost1" lootmax="2">
 	<usage name="Town"/>
 	<usage name="Police" />
 	
@@ -7937,7 +7841,7 @@
 	</container>
 </group>
 
-	<group name="Land_Agroprom_south_building2" lootmax="9">
+<group name="Land_Agroprom_south_building2" lootmax="9">
 	<usage name="Town"/>
 	<usage name="Police" />
 	
@@ -7958,8 +7862,7 @@
 	</container>
 </group>
 
-
-	<group name="Land_Agroprom_south_building3" lootmax="4">
+<group name="Land_Agroprom_south_building3" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Police" />
 	<container name="lootFloor" lootmax="4">
@@ -7973,10 +7876,9 @@
 	</container>
 </group>
 
-	<group name="Land_Agroprom_south_building4" lootmax="9">
+<group name="Land_Agroprom_south_building4" lootmax="9">
 	<usage name="Town"/>
 	<usage name="Police" />
-	
 	<container name="lootFloor" lootmax="9">
 	<category name="tools" />
 	<category name="containers" />
@@ -7994,8 +7896,7 @@
 	</container>
 </group>
 
-	<group name="Land_Agroprom_south_barracks1" lootmax="6">
-	
+<group name="Land_Agroprom_south_barracks1" lootmax="6">
 	<usage name="Military"/>
 	<container name="lootFloor" lootmax="6">
 	<category name="tools" />
@@ -8012,8 +7913,7 @@
 </group>
 
 
-	<group name="Land_Agroprom_south_barracks2" lootmax="7">
-	
+<group name="Land_Agroprom_south_barracks2" lootmax="7">
 	<usage name="Military"/>
 	<container name="lootFloor" lootmax="7">
 	<category name="tools" />
@@ -8032,7 +7932,7 @@
 
 
 
-	<group name="Land_Agroprom_boloto_building" lootmax="4">
+<group name="Land_Agroprom_boloto_building" lootmax="4">
 	<usage name="Town"/>
 	<usage name="Village" />
 	<usage name="Hunting" />
@@ -8047,9 +7947,8 @@
 	</container>
 </group>
 
-	<group name="Land_Agroprom_underground_logovo_1" lootmax="16">
+<group name="Land_Agroprom_underground_logovo_1" lootmax="16">
 	<usage name="Military" />
-	
 	<container name="lootFloor" lootmax="16">
 	<category name="tools" />
 	<category name="containers" />
@@ -8074,9 +7973,8 @@
 	</container>
 </group>
 
-	<group name="Land_Agroprom_underground_logovo_2" lootmax="24">
+<group name="Land_Agroprom_underground_logovo_2" lootmax="24">
 	<usage name="Military" />
-	
 	<container name="lootFloor" lootmax="24">
 	<category name="tools" />
 	<category name="containers" />
@@ -8109,9 +8007,8 @@
 	</container>
 </group>
 
-	<group name="Land_Agroprom_underground_logovo_3" lootmax="4">
+<group name="Land_Agroprom_underground_logovo_3" lootmax="4">
 	<usage name="Military" />
-	
 	<container name="lootFloor" lootmax="4">
 	<category name="tools" />
 	<category name="containers" />
@@ -8126,7 +8023,6 @@
  <point pos="-1.288085 -2.032796 0.851563" range="0.500000" height="1.500000" /> 
 	</container>
 </group>
-
 
 <group name="Land_Escape_village_house1" lootmax="4">
 	<usage name="Town" />
@@ -8147,29 +8043,6 @@
 		<point pos="-3.083109 -3.705956 0.289950" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-<!--
-	<group name="Land_Agroprom_north_building1" lootmax="12">
-	<usage name="Town"/>
-	
-	<container name="lootFloor" lootmax="12">
-	<category name="clothes" />
-	<category name="weapons" />
-<point pos="2.475586 -3.844696 -0.688477" range="0.500000" height="1.500000" />
- <point pos="-3.433594 -3.847451 -1.525391" range="0.500000" height="1.500000" />
- <point pos="2.300781 -3.845022 -5.527344" range="0.500000" height="1.500000" />
- <point pos="0.331055 -3.843797 5.871094" range="0.500000" height="1.500000" />
- <point pos="4.541992 -3.843907 8.655273" range="0.500000" height="1.500000" />
- <point pos="-4.414063 -3.865195 8.295898" range="0.500000" height="1.500000" />
- <point pos="1.773437 1.152371 6.205078" range="0.500000" height="1.500000" />
- <point pos="5.790039 1.152326 -2.465820" range="0.500000" height="1.500000" />
- <point pos="-0.231445 1.152484 -3.763672" range="0.500000" height="1.500000" />
- <point pos="4.262695 1.150601 1.634766" range="0.500000" height="1.500000" />
- <point pos="0.213867 1.151900 0.442383" range="0.500000" height="1.500000" />
- <point pos="2.889648 1.152375 -4.329102" range="0.500000" height="1.500000" />
-	</container>
-</group>
--->
 
 <group name="Land_Agroprom_north_building1" lootmax="12">
 	<usage name="Industrial" />
@@ -8217,16 +8090,9 @@
 		<point pos="-4.655154 1.132693 -3.598813" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-
-
-
-
-	<!-- Original Buildings of Chernobyl -->
-	
+<!-- Original Buildings of Chernobyl -->
 	<!-- New additions -->
-	
-	<group name="land_chz_okoli_bouda_1" lootmax="4">
+<group name="land_chz_okoli_bouda_1" lootmax="4">
 	<usage name="Industrial"/>
 	<usage name="Police"/>
 	<container name="lootFloor" lootmax="4">
@@ -8261,10 +8127,7 @@
 	</container>
 </group>
 
-
-
-	
-	<group name="land_chz_kinder_item_besedka" lootmax="2">
+<group name="land_chz_kinder_item_besedka" lootmax="2">
 	<usage name="Town" />
 	<usage name="Village" />
 	<container name="lootFloor" lootmax="2">
@@ -8275,8 +8138,7 @@
 	</container>
 </group>
 
-	
-	<group name="land_chz_cisticka_zazemi_02" lootmax="4">
+<group name="land_chz_cisticka_zazemi_02" lootmax="4">
 	<usage name="Police" />
 	<usage name="Prison" />
 	<usage name="Office" />
@@ -8295,14 +8157,10 @@
 		<point pos="2.076611 -1.657905 -4.713966" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-	
-	<!-- TurbinePonds -->
-	
-	<group name="land_chz_cisticka_sekundarni_cirice" lootmax="3">
+<!-- TurbinePonds -->
+<group name="land_chz_cisticka_sekundarni_cirice" lootmax="3">
 	<usage name="Industrial" />
 	<usage name="Military" />
-	
 	<container name="lootFloor" lootmax="3">
 		<point pos="-1.318091 -0.786233 -3.217706" range="0.5" height="1.5" /> 
 		<point pos="-1.849270 0.054633 -1.545063" range="0.5" height="1.5" /> 
@@ -8315,7 +8173,6 @@
 
 <group name="land_chz_cisticka_primarni_usazovac" lootmax="3">
 	<usage name="Industrial" />
-	
 	<usage name="Military" />
 	<container name="lootFloor" lootmax="3">
 		<point pos="0.988242 0.074752 -0.016320" range="0.5" height="1.5" /> 
@@ -8371,10 +8228,6 @@
 	</container>
 </group>
 
-
-
-
-	
 <group name="land_chz_janov_01" lootmax="4">
 	<usage name="Office" />
 	<usage name="Police" />
@@ -8411,14 +8264,11 @@
 	</container>
 </group>
 
-
-
-
 <group name="land_chz_vesnice_farma01" lootmax="4">
 	<usage name="Farm" />
 	<usage name="Hunting" />
 	<container name="lootFloor" lootmax="4">
-		<category name="Weapons" />
+		<category name="weapons" />
 		<category name="tools" />
 		<point pos="4.944506 -3.820369 18.447668" range="0.5" height="1.5" /> 
 		<point pos="1.476670 -3.826319 7.268480" range="0.5" height="1.5" /> 
@@ -8475,8 +8325,6 @@
 	</container>
 </group>
 
-
-
 <group name="land_chz_skladoleju_06_01" lootmax="4">
 	<usage name="Industrial" />
 	<container name="lootFloor" lootmax="4">
@@ -8524,28 +8372,6 @@
 		<point pos="-3.624965 3.436405 -3.298951" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-<!--
-<group name="land_chz_pradelna_04" lootmax="4">
-	<usage name="Industrial" />
-	<usage name="Town" />
-	<container name="lootFloor" lootmax="4">
-		<point pos="8.182186 -4.674219 7.546043" range="0.5" height="1.5" /> 
-		<point pos="5.968370 -0.016223 3.645097" range="0.5" height="1.5" /> 
-		<point pos="-0.094610 -0.006402 6.297477" range="0.5" height="1.5" /> 
-		<point pos="-0.094610 -0.006402 6.297477" range="0.5" height="1.5" /> 
-		<point pos="-0.094610 -0.006402 6.297477" range="0.5" height="1.5" /> 
-		<point pos="-0.094610 -0.006402 6.297477" range="0.5" height="1.5" /> 
-		<point pos="-4.777705 -0.019205 6.556840" range="0.5" height="1.5" /> 
-		<point pos="-8.315023 0.002021 -0.155444" range="0.5" height="1.5" /> 
-		<point pos="-8.315023 0.002021 -0.155444" range="0.5" height="1.5" /> 
-		<point pos="-3.078880 -5.021161 -5.662500" range="0.5" height="1.5" /> 
-		<point pos="-6.258657 -5.014553 -1.365280" range="0.5" height="1.5" /> 
-	</container>
-</group>
--->
-
-
 
 <group name="land_chz_pradelna_04" lootmax="6">
 	<usage name="Industrial" />
@@ -8617,8 +8443,6 @@
 	</container>
 </group>
 
-
-
 <group name="land_chz_hallofresidence_01_03" lootmax="5">	
 	<category name="food" />
         <usage name="Village"/>
@@ -8636,7 +8460,6 @@
 		<point pos="20.512300 -12.195814 10.654600" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_nemocnice_01" lootmax="6">
 	<category name="tools" />
@@ -8774,10 +8597,6 @@
 	</container>
 </group>
 
-
-
-
-
 <group name="land_chz_KBO_01" lootmax="6">
 	<usage name="Industrial" />
 	<container name="lootFloor" lootmax="6">
@@ -8896,15 +8715,11 @@
 		<point pos="13.141383 -4.182714 7.743049" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-
-
-
-		
+	
 <group name="land_chz_hotel_01" lootmax="8">
 	<usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Office"/>
+    <usage name="Village"/>
+    <usage name="Office"/>
 	<usage name="School"/>
 	<usage name="Police" />
 	<container name="lootFloor" lootmax="8">
@@ -8964,9 +8779,6 @@
 		<point pos="0.858690 3.464488 8.647740" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-
-
 
 <group name="land_chz_sc_01" lootmax="12">
 	<usage name="Hunting"/>
@@ -9099,18 +8911,6 @@
 	</container>
 </group>
 
-
-<!--
-<group name="land_chz_sklenik2" lootmax="4">
-	<usage name="Industrial" />
-	<usage name="Farm" />
-	<container name="lootFloor" lootmax="4">
-		<point pos="-9.998000 -1.526607 -0.608480" range="0.5" height="1.5" /> 
-		<point pos="8.557243 -1.550688 0.631256" range="0.5" height="1.5" /> 
-	</container>
-</group>
--->
-
 <group name="land_chz_sklenik2" lootmax="4">
 	<usage name="Town" />
 	<usage name="Farm" />
@@ -9123,9 +8923,6 @@
 		<point pos="-14.799701 -1.486896 -0.140810" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-
-
 
 <group name="land_chz_restaurace_01" lootmax="4">
 	<usage name="Industrial" />
@@ -9171,10 +8968,6 @@
 	</container>
 </group>
 
-
-
-
-
 <group name="land_chz_jupiter_north_entrance" lootmax="2">
 	<usage name="Industrial" />
 	<usage name="Town" />
@@ -9203,10 +8996,6 @@
 		<point pos="-7.577614 -6.044902 -12.026126" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-
-
-
 
 <group name="land_chz_jupiter_okoli_1" lootmax="4">
 	<usage name="Industrial" />
@@ -9278,8 +9067,6 @@
 	</container>
 </group>
 
-
-
 <group name="land_chz_vesnice_dum01" lootmax="3">
 	<usage name="Village" />
 	<container name="lootFloor" lootmax="3">
@@ -9305,7 +9092,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_vesnice_dum02" lootmax="4">
     	<usage name="Village" />
 	<container name="lootFloor" lootmax="4">
@@ -9327,7 +9113,6 @@
 		<point pos="-4.213025 -4.267650 -6.817495" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_vesnice_dum03" lootmax="3">
     	<usage name="Village" />
@@ -9367,8 +9152,6 @@
 	</container>
 </group>
 
-
-
 <group name="land_chz_vesnice_dum05" lootmax="3">
     	<usage name="Village" />
 	<container name="lootFloor" lootmax="3">
@@ -9390,7 +9173,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_vesnice_dum06" lootmax="3">
     	<usage name="Village" />
 	<container name="lootFloor" lootmax="3">
@@ -9407,7 +9189,6 @@
 		<point pos="-2.039324 -1.446097 -7.633470" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_vesnice_dum07" lootmax="4">
     	<usage name="Village" />
@@ -9431,7 +9212,6 @@
 		<point pos="-3.119402 -2.281415 -2.899693" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_vesnice_dum08" lootmax="4">
     	<usage name="Village" />
@@ -9479,7 +9259,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_vesnice_dum10" lootmax="4">
     	<usage name="Village" />
 	<container name="lootFloor" lootmax="4">
@@ -9498,8 +9277,6 @@
 		<point pos="-7.024788 -3.460417 0.344735" range="1" height="1" flags="32" /> 
 	</container>
 </group>
-
-
 
 <group name="land_chz_vesnice_dum11" lootmax="4">
     	<usage name="Village" />
@@ -9537,7 +9314,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_vesnice_dum12" lootmax="4">
     	<usage name="Village" />
 	<container name="lootFloor" lootmax="4">
@@ -9560,7 +9336,6 @@
 		<point pos="-0.408286 -4.294018 0.353741" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_vesnice_dum13" lootmax="4">
     	<usage name="Village" />
@@ -9590,7 +9365,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_vesnice_dum14" lootmax="3">
     	<usage name="Village" />
 	<container name="lootFloor" lootmax="3">
@@ -9607,7 +9381,6 @@
 		<point pos="-2.844327 -3.177701 -5.101091" range="1" height="1" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_vesnice_dum15" lootmax="4">
     	<usage name="Village" />
@@ -9633,7 +9406,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_vesnice_dum16" lootmax="4">
     	<usage name="Village" />
 	<container name="lootFloor" lootmax="4">
@@ -9654,12 +9426,6 @@
 	</container>
 </group>
 
-
-
-
-
-
-
 <group name="land_chz_tabor_budova_1" lootmax="1">
 	<usage name="Industrial" />
 	<usage name="Farm" />
@@ -9669,7 +9435,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_tabor_budova_2" lootmax="1">
 	<usage name="Village" />
 	<usage name="Farm" />
@@ -9678,7 +9443,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_tabor_budova_3" lootmax="1">
 	<usage name="Village" />
 	<usage name="Farm" />
@@ -9686,7 +9450,6 @@
 		<point pos="-0.115276 -2.247116 0.207061" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_tabor_budova_4" lootmax="1">
 	<usage name="Village" />
@@ -9718,7 +9481,6 @@
 		<point pos="17.614700 1.725678 -1.268280" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_skola_03" lootmax="4">
 	<usage name="School" />
@@ -9828,7 +9590,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_skolka_02" lootmax="4">
 	    <usage name="Village"/>
         <usage name="Office"/>
@@ -9931,8 +9692,7 @@
 		<point pos="8.570800 3.420609 2.845850" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-		<!-- new Chernobyl -->
+<!-- new Chernobyl -->
 <group name="land_chz_autobusova_zastavka" lootmax="4">
 		<usage name="Town"/>
         <usage name="Village"/>
@@ -9943,27 +9703,6 @@
 		<point pos="-28.890392 -4.274003 -5.433530" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-<!--
-<group name="land_chz_beryozka" lootmax="8">
-		<usage name="Town" />
-		<usage name="School" />
-		<usage name="Office" />
-	<container name="lootFloor" lootmax="4">
-		<point pos="3.424680 -3.156651 -23.515699" range="0.5" height="1.5" /> 
-		<point pos="5.304310 -3.175789 -30.842121" range="0.5" height="1.5" /> 
-		<point pos="4.649260 -3.156271 -19.543301" range="0.5" height="1.5" /> 
-		<point pos="10.430500 -3.160528 -20.679399" range="0.5" height="1.5" /> 
-		<point pos="1.441979 -3.157226 -22.943802" range="0.5" height="1.5" /> 
-		<point pos="-2.855740 -2.906248 11.444800" range="0.5" height="1.5" /> 
-		<point pos="-8.550250 -2.813519 11.584500" range="0.5" height="1.5" /> 
-		<point pos="-9.956230 -3.037228 23.890100" range="0.5" height="1.5" /> 
-		<point pos="-6.030060 -2.970111 27.478399" range="0.5" height="1.5" /> 
-		<point pos="0.656240 -2.863408 20.773001" range="0.5" height="1.5" /> 
-		<point pos="1.600050 -2.962795 16.695900" range="0.5" height="1.5" /> 
-	</container>
-</group>
--->
 
 <group name="land_chz_beryozka" lootmax="6">
 	<usage name="Industrial" />
@@ -9987,7 +9726,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_budova_01_01" lootmax="2">
 	<usage name="Office"/>
 	<usage name="Town"/>
@@ -9998,7 +9736,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_budova_01_02" lootmax="1">
 	<usage name="Office"/>
 	<usage name="Town"/>
@@ -10007,7 +9744,6 @@
 		<point pos="-1.965157 -11.152011 -6.510967" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_budova_03_01" lootmax="2">
 	<usage name="Office"/>
@@ -10018,7 +9754,6 @@
 		<point pos="11.631852 -12.381166 7.791796" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_gastronom" lootmax="8">
 	<usage name="Town"/>
@@ -10048,7 +9783,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_hotel_terr_02a" lootmax="4">
 	<usage name="Office"/>
 	<usage name="Town"/>
@@ -10070,7 +9804,6 @@
 		<point pos="8.657703 0.967030 -15.129771" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_house_5floor1" lootmax="3">
 	<usage name="Office"/>
@@ -10101,7 +9834,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_house_5floor_2arka2" lootmax="4">
 	<usage name="Office"/>
 	<usage name="Town"/>
@@ -10113,7 +9845,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_house_9floor1_part1" lootmax="4">
 	<usage name="Office"/>
 	<usage name="Town"/>
@@ -10124,7 +9855,6 @@
 		<point pos="-8.276089 -11.006357 -17.291235" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_house_9floor1_part2" lootmax="4">
 	<usage name="Office"/>
@@ -10138,7 +9868,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_house_9floor2_part2" lootmax="3">
 	<usage name="Office"/>
 	<usage name="Town"/>
@@ -10148,7 +9877,6 @@
 		<point pos="-8.592754 -11.072446 -15.704604" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_house_9floor3_part1" lootmax="3">
 	<usage name="Office"/>
@@ -10160,7 +9888,6 @@
 	</container>
 </group>
 
-
 <group name="land_chz_house_9floor_part1" lootmax="3">
 	<usage name="Town"/>
 	<container name="lootFloor" lootmax="3">
@@ -10169,7 +9896,6 @@
 		<point pos="-8.115455 -8.577989 -19.761799" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_namesti_panely_01" lootmax="3">
 	<usage name="Town"/>
@@ -10189,22 +9915,6 @@
 	</container>
 </group>
 
-<!--
-<group name="land_chz_pradelna_02" lootmax="4">
-	<usage name="Industrial" />
-	<usage name="Town" />
-	<container name="lootFloor" lootmax="4">
-		<point pos="6.655860 -4.780826 7.165504" range="0.5" height="1.5" /> 
-		<point pos="10.755262 -4.780826 1.107481" range="0.5" height="1.5" /> 
-		<point pos="6.821077 -9.773582 -0.085212" range="0.5" height="1.5" /> 
-		<point pos="6.059345 -9.773583 10.313584" range="0.5" height="1.5" /> 
-		<point pos="17.406931 -9.773584 5.136280" range="0.5" height="1.5" /> 
-		<point pos="3.283720 -9.773583 -8.634131" range="0.5" height="1.5" /> 
-		<point pos="-5.701151 -9.773583 -9.146269" range="0.5" height="1.5" /> 
-	</container>
-</group>
--->
-
 <group name="land_chz_pradelna_02" lootmax="6">
 	<usage name="Industrial" />
 	<container name="lootFloor" lootmax="6">
@@ -10221,7 +9931,6 @@
 		<point pos="8.788400 -4.719369 1.621870" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
 
 <group name="land_chz_pristav1" lootmax="8">
 	<usage name="Town" />	
@@ -10261,20 +9970,6 @@
 		<point pos="30.079018 -10.547032 -3.588830" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-<!--
-<group name="land_chz_sklenik1" lootmax="4">
-	<usage name="Industrial" />
-	<usage name="Farm" />
-	<container name="lootFloor" lootmax="4">
-		<point pos="7.489370 -2.778538 2.567860" range="0.5" height="1.5" /> 
-		<point pos="11.048000 -2.762343 2.149990" range="0.5" height="1.5" /> 
-		<point pos="6.791780 0.190415 3.913140" range="0.5" height="1.5" /> 
-		<point pos="3.511662 2.524648 3.967750" range="0.5" height="1.5" /> 
-		<point pos="12.224900 0.328631 -1.275490" range="0.5" height="1.5" /> 
-	</container>
-</group>
--->
 
 <group name="land_chz_sklenik1" lootmax="6">
 	<usage name="Industrial" />
@@ -10449,23 +10144,11 @@
 		<point pos="3.269916 -0.517753 -0.192338" range="0.5" height="1.5" /> 
 	</container>
 </group>
-
-
-
-
-
-
-
-		<!-- END OF PRIPYAT -->
-		<!-- END OF PRIPYAT -->
-		
-		
-		
-		<!-- START OF VANILLA -->
-		<!-- START OF VANILLA -->
-
-
-		<group name="Land_Shed_M1" lootmax="2">
+<!-- END OF PRIPYAT -->
+<!-- END OF PRIPYAT -->
+<!-- START OF VANILLA -->
+<!-- START OF VANILLA -->
+<group name="Land_Shed_M1" lootmax="2">
 				<usage name="Industrial" />
 				<usage name="Farm" />
 				<container name="lootFloor" lootmax="2">
