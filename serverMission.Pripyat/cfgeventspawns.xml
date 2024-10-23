@@ -1272,5 +1272,10 @@
     <event name="InfectedPolice" />
     <event name="InfectedFirefighter" />
     <event name="InfectedPrisoner" />
+    <event name="AnimalDeer" />
+    <event name="AnimalCow" />
+    <event name="AnimalSheep" />
+    <event name="AnimalRoeDeer" />
     <event name="AnimalWolf" />
+    <event name="AnimalWildBoar" />
 </eventposdef>
