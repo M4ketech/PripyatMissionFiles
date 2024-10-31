@@ -1272,10 +1272,14 @@
     <event name="InfectedPolice" />
     <event name="InfectedFirefighter" />
     <event name="InfectedPrisoner" />
+	<event name="InfectedReligious" />
     <event name="AnimalDeer" />
     <event name="AnimalCow" />
     <event name="AnimalSheep" />
     <event name="AnimalRoeDeer" />
     <event name="AnimalWolf" />
     <event name="AnimalWildBoar" />
+	<event name="AnimalBear" />
+	<event name="AnimalGoat" />
+	<event name="AnimalPig" />
 </eventposdef>
