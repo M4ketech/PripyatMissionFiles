@@ -1231,6 +1231,7 @@
     <event name="InfectedVillage" />
     <event name="InfectedSolitude" />
     <event name="InfectedArmy" />
+	<event name="InfectedArmyW" />
     <event name="InfectedCity" />
     <event name="InfectedMedic" />
     <event name="InfectedPolice" />
