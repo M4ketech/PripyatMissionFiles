@@ -4397,9 +4397,6 @@
 	</container>
 </group>
 
-
-
-
 <group name="land_chz_spyaircraft" lootmax="10">
 	<usage name="Military" />
 	<container name="lootFloor" lootmax="10">
@@ -4428,7 +4425,6 @@
 		<point pos="-5.280718 0.859296 -6.394250" range="1" height="1" flags="32" /> 
 	</container>
 </group>
-
 
 <!--
 				Reactor

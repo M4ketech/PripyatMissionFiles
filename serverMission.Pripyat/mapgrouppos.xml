@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
     <group name="Land_Mil_Barracks6" pos="22.306000 206.009995 1316.569946" rpy="-0.000000 0.000000 -89.286980" a="179.286972" />
-    <group name="Land_Mil_Barracks6" pos="38.751701 206.009995 1345.199951" rpy="-0.000000 0.000000 -179.999985" a="-90.000000" />
+    <group name="Land_Mil_Barracks6" pos="39.855 206.009995 1341.39" rpy="-0.000000 0.000000 -179.999985" a="-90.000000" />
     <group name="Land_czb_build_sad_1" pos="39.531845 212.782181 1383.945190" rpy="-0.000000 0.000000 0.000000" a="90.000000" />
     <group name="land_chz_jupiter_south_entrance" pos="41.000000 208.691910 1264.550049" rpy="-0.000000 0.000000 90.000000" a="-0.000003" />
     <group name="Land_Mil_Airfield_HQ" pos="45.087200 211.802872 1294.060059" rpy="-0.000000 0.000000 -89.999809" a="179.999802" />
