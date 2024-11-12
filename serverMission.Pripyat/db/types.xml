@@ -380,17 +380,17 @@
         <category name="weapons"/>
     </type>
     <type name="AK_Suppressor">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
     </type>
     <type name="AK_WoodBttstck">
         <nominal>5</nominal>
@@ -12236,7 +12236,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
     </type>
     <type name="M4_T3NRDSOptic">
         <nominal>10</nominal>
