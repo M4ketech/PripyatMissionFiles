@@ -2,7 +2,7 @@
 <eventgroupdef>
     <!--pos x="5587.466" z="2063.353" a="0" y="7.591" group="Train_Abandoned_Cherno"/-->
     <group name="Train_Abandoned_Cherno">
-<child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
+        <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="12.085" z="2.740" a="256.739" y="1.789"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="23.106" z="5.477" a="255.579" y="1.781"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="34.546" z="8.424" a="255.837" y="1.32"/>
@@ -30,7 +30,7 @@
     </group>
     <!--pos x="11254.230" z="3290.319" a="0" y="6.513" group="Train_Abandoned_Kamy"/-->
     <group name="Train_Abandoned_Kamy">
-<child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="232.116" y="1.9"/>
+        <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="232.116" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="10.519" z="7.484" a="56.981" y="1.359"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="63.608" z="36.819" a="65.102" y="1.350"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="42.184" z="25.479" a="61.364" y="1.357"/>
@@ -42,7 +42,7 @@
     </group>
     <!--pos x="1256.313" z="9349.465" a="0" y="211.678" group="Train_Abandoned_Myshkino"/-->
     <group name="Train_Abandoned_Myshkino">
- <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="29.779" y="1.9"/>
+        <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="29.779" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-6.915" z="-10.795" a="36.096" y="1.265"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-14.550" z="-20.221" a="42.284" y="1.208"/>
         <child type="Land_Container_1Bo_DE" deloot="0" lootmax="4" lootmin="2" x="-57.636" z="-59.438" a="48.988" y="2.05"/>
@@ -661,6 +661,7 @@
             <child type="StaticObj_Wreck_Decal_Small2" spawnsecondary="false" x="3.757" z="-18.535" a="84.053"/>
             <child type="StaticObj_Wreck_Decal_Small2" spawnsecondary="false" x="-5.562" z="-21.660" a="164.625"/>
     </group>
+    
     <!-- Police Events -->
     <!--pos deloot="1" lootmax="4" lootmin="2" x="11909.426" z="6432.040" a="0" y="49.747" group="North_Fuelstorage"/-->
     <group name="North_Fuelstorage">
@@ -691,4 +692,149 @@
         <child type="StaticObj_Roadblock_Wood_Small" spawnsecondary="false" x="1.971" z="7.321" a="133.814"/>
 		<child type="StaticObj_Wreck_Decal_Small1" spawnsecondary="false" x="-2.770" z="-7.793" a="218.966"/>
     </group>
+    
+    <group name="Traffic_Situation1">
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="287.9999694824219" y="0"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-13.82177734375" z="1.9873046875" a="266.40001678466797" y="-0.5246429443359375"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-6.53076171875" z="2.3564453125" a="268.19998931884766" y="-0.5103302001953125"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-20.34228515625" z="1.478515625" a="266.4000930786133" y="-0.1956024169921875"/>
+		<child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-26.1318359375" z="1.216796875" a="89.99993133544922" y="-0.55291748046875"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="9.9580078125" z="3.0546875" a="86.2368392944336" y="-0.45635986328125"/>
+	</group>
+	
+	<group name="Traffic_Situation2">
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="98.99993133544922" y="0"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-9.17041015625" z="3.7763671875" a="104.39971923828125" y="0.061614990234375"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-11.60986328125" z="-2.24609375" a="325.8000068664551" y="0.05908203125"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-6.62158203125" z="-0.728515625" a="63.00013732910156" y="0.089874267578125"/>
+	</group>
+	
+	<group name="Traffic_Situation3">
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="197.99993896484375" y="0"/>
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="1.34912109375" z="-5.7646484375" a="156.5998992919922" y="-0.0957489013671875"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="3.64501953125" z="-11.3095703125" a="161.9998321533203" y="0.026153564453125"/>
+		<child type="Land_Wreck_hb02_aban2_red_DE" deloot="0" lootmax="2" lootmin="2" x="-2.2314453125" z="1.61328125" a="288.0000762939453" y="-0.1806488037109375"/>
+	</group>
+	
+	<group name="Traffic_Situation4">
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="55.79997634887695" y="0"/>
+		<child type="Land_wreck_truck01_aban2_blue_DE" deloot="0" lootmax="2" lootmin="2" x="-25.77001953125" z="-5.4384765625" a="305.99978256225586" y="-1.0848236083984375"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-16.70947265625" z="3.0400390625" a="80.99999237060547" y="-0.245513916015625"/>
+		<child type="Land_Wreck_sed01_aban1_white_DE" deloot="0" lootmax="2" lootmin="2" x="-20.83935546875" z="-5.359375" a="207.00001525878906" y="-0.2483367919921875"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-5.85107421875" z="-4.171875" a="53.999969482421875" y="-0.309356689453125"/>
+	</group>
+	
+	<group name="Traffic_Situation5">
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="54" y="0"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-4.4267578125" z="7.515625" a="26.99998664855957" y="0.4420318603515625"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="11.1103515625" z="-0.2353515625" a="17.999984741210938" y="0.0031280517578125"/>
+		<child type="Land_Wreck_Uaz_DE" spawnsecondary="false" x="5.0576171875" z="-1.884765625" a="35.999996185302734" y="0.058929443359375"/>
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="15.1220703125" z="10.841796875" a="23.399944305419922" y="0.3560638427734375"/>
+	</group>
+
+	<group name="Traffic_Situation6">
+		<child type="Land_wreck_truck01_aban1_firetruck_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="149.39984130859375" y="0"/>
+		<child type="Land_wreck_truck01_aban2_firetruck_DE" deloot="0" lootmax="2" lootmin="2" x="-19.12774658203125" z="8.880859375" a="270.0000534057617" y="0.0779571533203125"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-14.985595703125" z="17.646484375" a="268.2000961303711" y="1.2697906494140625"/>
+		<child type="Land_Wreck_Trailer_Closed_DE" deloot="0" lootmax="2" lootmin="2" x="-6.14666748046875" z="14.396484375" a="333" y="1.015625"/>
+		<child type="Land_wreck_truck01_aban2_blue_DE" deloot="0" lootmax="2" lootmin="2" x="-5.4571533203125" z="6.916015625" a="17.45199966430664" y="-0.0118560791015625"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-6.94775390625" z="3.34765625" a="286.9272994995117" y="0.7569427490234375"/>
+	</group>
+	
+	<group name="Traffic_Situation7">
+		<child type="Land_wreck_truck01_aban2_blue_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="181.74571228027344" y="0"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-0.57421875" z="-10.12109375" a="181.80015563964844" y="0.7640838623046875"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="10.056640625" z="28.43359375" a="228.7337646484375" y="0.54998779296875"/>
+		<child type="Land_wreck_truck01_aban2_blue_DE" deloot="0" lootmax="2" lootmin="2" x="2.349609375" z="21.263671875" a="210.34521484375" y="-0.039825439453125"/>
+		<child type="Land_wreck_truck01_aban2_blue_DE" deloot="0" lootmax="2" lootmin="2" x="-0.09375" z="11.21875" a="180.0001983642578" y="0.01580810546875"/>
+	</group>
+	
+	<group name="Traffic_Situation8">
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="281.2470932006836" y="0"/>
+		<child type="Land_Wreck_sed01_aban1_white_DE" deloot="0" lootmax="2" lootmin="2" x="-1.21484375" z="-3.263671875" a="189.00001525878906" y="-0.3903961181640625"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="7.150390625" z="-1.240234375" a="270.0000991821289" y="-0.5045013427734375"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-9.369140625" z="-1.990234375" a="262.8000946044922" y="-0.366485595703125"/>
+	</group>
+	
+	<group name="Traffic_Situation9">
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="316.8000144958496" y="0"/>
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="16.2763671875" z="-16.322265625" a="15.496003150939941" y="-0.1634521484375"/>
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="7.8876953125" z="-7.5908203125" a="315.00000762939453" y="-0.217132568359375"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="19.814453125" z="-16.9599609375" a="107.99996185302734" y="-0.2291259765625"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="28.08203125" z="-20.9423828125" a="131.39990234375" y="-0.0270233154296875"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="35.275390625" z="-27.4677734375" a="131.39990234375" y="0.1528167724609375"/>
+	</group>
+	
+	<group name="TrafficSituation10">
+		<child type="Land_Wreck_hb01_aban1_green_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="320.4000053405762" y="0"/>
+		<child type="Land_wreck_truck01_aban1_orange_DE" deloot="0" lootmax="2" lootmin="2" x="28.599609375" z="-3.1474609375" a="61.199974060058594" y="-0.9618072509765625"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="9.1328125" z="-10.52587890625" a="150.30393981933594" y="-0.364105224609375"/>
+		<child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="2" lootmin="2" x="11.984375" z="-15.05078125" a="129.89895629882812" y="0.226470947265625"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="5.27734375" z="-21.49560546875" a="240.72915649414062" y="-0.3534698486328125"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="22.873046875" z="-6.16943359375" a="61.20000076293945" y="-0.3792572021484375"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="24.853515625" z="-10.13818359375" a="151.19984436035156" y="-0.2510223388671875"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="3.095703125" z="-17.3662109375" a="331.2000026702881" y="0.099517822265625"/>
+		<child type="Land_Wreck_sed01_aban1_white_DE" deloot="0" lootmax="2" lootmin="2" x="5.16796875" z="-5.90283203125" a="320.40000915527344" y="-0.2225799560546875"/>
+		<child type="Land_Wreck_Tractor_DE" deloot="0" lootmax="2" lootmin="2" x="14.060546875" z="-12.33251953125" a="44.99998092651367" y="0.1297607421875"/>
+	</group>
+	
+	<group name="Traffic_Situation11">
+		<child type="Land_Wreck_Ikarus_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="50.999996185302734" y="0"/>
+		<child type="Land_Wreck_Uaz_DE" spawnsecondary="false" x="-11.7001953125" z="-5.300048828125" a="0" y="-0.711212158203125"/>
+		<child type="Land_Wreck_hb01_aban1_white_DE" deloot="0" lootmax="2" lootmin="2" x="4.7998046875" z="7" a="141.30999755859375" y="-0.4239959716796875"/>
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-20" z="-1.02001953125" a="270.00001525878906" y="-0.564422607421875"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="12" z="5" a="86.80416870117188" y="-0.75274658203125"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="19" z="5.5" a="84.43498992919922" y="-0.738250732421875"/>
+	</group>
+	
+	<group name="Traffic_Situation12">
+		<child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="0" z="0" a="61.199974060058594" y="0"/>
+		<child type="StaticObj_Wreck_Trailer_Flat_DE" spawnsecondary="false" x="-8.3798828125" z="-6.36767578125" a="7.199960708618164" y="0.5186767578125"/>
+		<child type="Land_Container_1Bo_DE" deloot="0" lootmax="2" lootmin="2" x="-11.82421875" z="-4.7841796875" a="0" y="0.4902496337890625"/>
+		<child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="2" lootmin="2" x="-12.4033203125" z="-11.958740234375" a="62.99997329711914" y="0.53887939453125"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="-29.7568359375" z="-13.729736328125" a="242.07538604736328" y="-0.1976776123046875"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="-27.10546875" z="-18.57421875" a="240.615966796875" y="-0.1861572265625"/>
+		<child type="StaticObj_Roadblock_Wood_Small_DE" spawnsecondary="false" x="-28.4619140625" z="-16.273193359375" a="61.199974060058594" y="-0.08306884765625"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-0.076171875" z="-7.289306640625" a="57.599998474121094" y="0.2191619873046875"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-34.4853515625" z="-12.219970703125" a="59.39997482299805" y="0.015472412109375"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="-1.294921875" z="2.54345703125" a="242.07538604736328" y="-0.1146087646484375"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="1.3564453125" z="-2.301025390625" a="240.615966796875" y="-0.10308837890625"/>
+	</group>
+	
+	<group name="Traffic_Situation13">
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="198.31600952148438" y="0"/>
+		<child type="Land_Wreck_hb01_aban2_blue_DE" deloot="0" lootmax="2" lootmin="2" x="-9.4501953125" z="-15.07861328125" a="204.91436767578125" y="-0.217041015625"/>
+		<child type="Land_Wreck_sed01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-0.8974609375" z="-17.998046875" a="136.80006408691406" y="-0.363128662109375"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="4.7958984375" z="-24.1123046875" a="140.39984130859375" y="-0.103912353515625"/>
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="6.0712890625" z="-29.8681640625" a="116.52978515625" y="-0.3255767822265625"/>
+	</group>
+	
+	<group name="Traffic_Situation14">
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="89.99995422363281" y="0"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="23.57763671875" z="-10.280517578125" a="152.99996948242188" y="-0.2882080078125"/>
+		<child type="Land_wreck_truck01_aban2_green_DE" deloot="0" lootmax="2" lootmin="2" x="28.2802734375" z="-19.25048828125" a="152.9999542236328" y="-0.7959442138671875"/>
+		<child type="Land_wreck_truck01_aban2_green_DE" deloot="0" lootmax="2" lootmin="2" x="33.44287109375" z="-29.396728515625" a="152.99993896484375" y="-0.7999420166015625"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="37.87548828125" z="-38.055908203125" a="152.9999237060547" y="0.2506103515625"/>
+		<child type="Land_wreck_truck01_aban2_green_DE" deloot="0" lootmax="2" lootmin="2" x="16.85986328125" z="-1.863037109375" a="128.5945281982422" y="-1.0684356689453125"/>
+		<child type="Land_Wreck_hb01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="7.48486328125" z="0.031982421875" a="89.99995422363281" y="-0.1439208984375"/>
+	</group>
+	
+	<group name="Traffic_Situation15">
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="0" z="0" a="89.99994659423828" y="0"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="3.693115234375" z="-7.61328125" a="225.67315673828125" y="0.2132720947265625"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="-0.68212890625" z="-9.477294921875" a="268.19998931884766" y="0.6530303955078125"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-4.581787109375" z="-6.32275390625" a="236.59610748291016" y="0.141387939453125"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-1.4716796875" z="6.98193359375" a="1.8001171350479126" y="0.026763916015625"/>
+		<child type="Land_Wreck_hb01_aban1_police_DE" deloot="0" lootmax="2" lootmin="2" x="13.2265625" z="-12.447509765625" a="270.0000457763672" y="0.87554931640625"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="0.974853515625" z="-4.18701171875" a="62.99997329711914" y="0.096435546875"/>
+		<child type="StaticObj_Roadblock_Wood_Long_DE" spawnsecondary="false" x="7.3994140625" z="-10.07373046875" a="19.603740692138672" y="0.3412628173828125"/>
+	</group>
+	
+	<group name="Traffic_Situation16">
+		<child type="Land_Wreck_Tractor_DE" deloot="0" lootmax="2" lootmin="2" x="0" z="0" a="237.60010528564453" y="0"/>
+		<child type="StaticObj_Wreck_Trailer_Flat_DE" spawnsecondary="false" x="-4.56640625" z="-3.1968994140625" a="236.19400024414062" y="0.08355712890625"/>
+		<child type="Land_Container_1Aoh_DE" deloot="0" lootmax="2" lootmin="2" x="-3.5263671875" z="-5.78350830078125" a="58.000003814697266" y="-0.0778656005859375"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="6.802734375" z="4.42742919921875" a="235.800048828125" y="-0.334197998046875"/>
+		<child type="Land_Wreck_sed01_aban2_police_DE" deloot="0" lootmax="2" lootmin="2" x="-12.7998046875" z="-8.8984375" a="235.800048828125" y="-0.5987396240234375"/>
+	</group>
 </eventgroupdef>
