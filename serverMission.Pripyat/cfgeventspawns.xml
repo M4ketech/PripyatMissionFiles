@@ -1503,10 +1503,10 @@
 	</event>
 	<event name="StaticAirplaneCrate">
 		<zone smin="0" smax="0" dmin="0" dmax="0" r="0" />
-				<pos x="15588.100" z="4410.460" />
-				<pos x="16277.600" z="11466" />
-				<pos x="17430.100" z="11657.200" />
-				<pos x="7649.130" z="13078" />
+		<pos x="15588.100" z="4410.460" />
+		<pos x="16277.600" z="11466" />
+		<pos x="17430.100" z="11657.200" />
+		<pos x="7649.130" z="13078" />
 	</event>
 	<event name="StaticTrain">   <!-- NOT UPDATED FOR PRIPYAT -->
 		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
@@ -1563,7 +1563,7 @@
 		<pos x="8259.971" z="13535.775" y="201.145" a="0" group="North_Fuelstorage"/> <!--UPDATED FOR PRIPYAT -->
 		<pos x="7827.945" z="11385.488" y="200.484" a="0" group="West_Kopachi"/> <!--UPDATED FOR PRIPYAT -->
 		<pos x="7703.995" z="10179.511" y="200.487" a="0" group="Dytyatky"/> <!--UPDATED FOR PRIPYAT -->
-    <pos x="5113.244140" y="201.490005" z="15433.702148" a="0" group="Traffic_Situation1"/>
+		<pos x="5113.244140" y="201.490005" z="15433.702148" a="0" group="Traffic_Situation1"/>
 		<pos x="3307.382812" y="204.306777" z="16200.933593" a="0" group="Traffic_Situation2"/>
 		<pos x="5433.469726" y="201.663787" z="16217.791992" a="0" group="Traffic_Situation3"/>
 		<pos x="7187.279296" y="202.227508" z="13168.759765" a="0" group="Traffic_Situation4"/>
@@ -1581,22 +1581,22 @@
 		<pos x="13894.125976" y="202.252639" z="883.068481" a="0" group="Traffic_Situation16"/>
 	</event>
 	<!-- <event name="VehicleTransitBus" /> -->
-  <event name="InfectedVillage" />
-  <event name="InfectedSolitude" />
-  <event name="InfectedArmy" />
+	<event name="InfectedVillage" />
+	<event name="InfectedSolitude" />
+	<event name="InfectedArmy" />
 	<event name="InfectedArmyW" />
-  <event name="InfectedCity" />
-  <event name="InfectedMedic" />
-  <event name="InfectedPolice" />
-  <event name="InfectedFirefighter" />
-  <event name="InfectedPrisoner" />
+	<event name="InfectedCity" />
+	<event name="InfectedMedic" />
+	<event name="InfectedPolice" />
+	<event name="InfectedFirefighter" />
+	<event name="InfectedPrisoner" />
 	<event name="InfectedReligious" />
-  <event name="AnimalDeer" />
-  <event name="AnimalCow" />
-  <event name="AnimalSheep" />
-  <event name="AnimalRoeDeer" />
-  <event name="AnimalWolf" />
-  <event name="AnimalWildBoar" />
+	<event name="AnimalDeer" />
+	<event name="AnimalCow" />
+	<event name="AnimalSheep" />
+	<event name="AnimalRoeDeer" />
+	<event name="AnimalWolf" />
+	<event name="AnimalWildBoar" />
 	<event name="AnimalBear" />
 	<event name="AnimalGoat" />
 	<event name="AnimalPig" />
