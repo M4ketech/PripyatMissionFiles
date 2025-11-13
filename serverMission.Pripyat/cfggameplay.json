@@ -1,5 +1,5 @@
 {
-	"version": 122,
+	"version": 123,
 	"GeneralData":
 	{
 		"disableBaseDamage": false,
@@ -30,6 +30,10 @@
 			"shockRefillSpeedUnconscious": 1.0,
 			"allowRefillSpeedModifier": true
 		},
+		"WeaponObstructionData": {
+			"staticMode": 1,
+			"dynamicMode": 1
+},
 		"MovementData":
 		{
 			"timeToStrafeJog": 0.1,
@@ -98,5 +102,8 @@
 		"ignoreNavItemsOwnership": false,
 		"displayPlayerPosition": false,
 		"displayNavInfo": true
+	},
+	"VehicleData": {
+		"boatDecayMultiplier": 1
 	}
 }
