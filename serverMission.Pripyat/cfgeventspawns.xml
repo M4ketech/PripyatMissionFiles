@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
+
 	<event name="StaticDrone">
 		<zone smin="0" smax="0" dmin="3" dmax="5" r="45"/>
 		<pos x="10160.5" z="2873.64" a="0"/>
