@@ -1170,9 +1170,9 @@
         </children>
     </event>
 	<event name="StaticDrone">
-        <nominal>3</nominal>
-        <min>0</min>
-        <max>0</max>
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
         <lifetime>2500</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
