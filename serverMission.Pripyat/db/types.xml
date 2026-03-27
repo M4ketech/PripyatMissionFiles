@@ -105,6 +105,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+		<usage name="Underground"/>
     </type>
     <type name="AK101_Black">
         <nominal>0</nominal>
@@ -496,6 +497,7 @@
         <category name="clothes"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
+		<usage name="Underground"/>
     </type>
     <type name="AlarmClock_Blue">
         <nominal>20</nominal>
@@ -1685,7 +1687,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <tag name="shelves"/>
+		<usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="AntiPestsSpray">
@@ -2347,7 +2349,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<usage name="Underground"/>
     </type>
     <type name="AugShort">
         <nominal>2</nominal>
@@ -2360,6 +2363,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+		<usage name="Underground"/>
     </type>
     <type name="AuriculariaMushroom">
         <nominal>0</nominal>
@@ -8067,8 +8071,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="GPSReceiver">
         <nominal>25</nominal>
@@ -8155,6 +8158,7 @@
         <tag name="shelves"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
+        <usage name="Underground"/>
     </type>
     <type name="GasMask_Filter_Improvised">
         <nominal>0</nominal>
@@ -8827,15 +8831,16 @@
         <value name="Tier3"/>
     </type>
     <type name="Grenade_ChemGas">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
+		<usage name="Underground"/>
     </type>
     <type name="Guts">
         <nominal>0</nominal>
@@ -10362,15 +10367,16 @@
         <value name="Tier4"/>
     </type>
     <type name="HuntingBag_Hannah">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>2600</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+		<usage name="Underground"/>
     </type>
     <type name="HuntingJacket_Autumn">
         <nominal>18</nominal>
@@ -12675,6 +12681,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+		<usage name="Underground"/>
     </type>
     <type name="Mag_AK74_30Rnd">
         <nominal>25</nominal>
@@ -13688,7 +13695,7 @@
         <usage name="Farm"/>
     </type>
     <type name="Mich2001Helmet">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -13698,7 +13705,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="MilitaryBelt">
         <nominal>15</nominal>
@@ -14314,9 +14321,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <tag name="floor"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="NBCBootsWhite">
         <nominal>0</nominal>
@@ -14353,8 +14358,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="NBCGlovesYellow">
         <nominal>3</nominal>
@@ -14380,8 +14384,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="NBCHoodWhite">
         <nominal>0</nominal>
@@ -14418,8 +14421,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="NBCJacketWhite">
         <nominal>0</nominal>
@@ -14456,8 +14458,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="NBCPantsWhite">
         <nominal>0</nominal>
@@ -15863,15 +15864,15 @@
         <value name="Tier4"/>
     </type>
     <type name="PlateCarrierVest_Black">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <usage name="Underground"/>
     </type>
     <type name="PlateCarrierVest_Camo">
         <nominal>3</nominal>
@@ -15888,15 +15889,15 @@
         <value name="Tier4"/>
     </type>
     <type name="PlateCarrierVest_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <usage name="Underground"/>
     </type>
     <type name="PlateCarrierVest_Winter">
         <nominal>0</nominal>

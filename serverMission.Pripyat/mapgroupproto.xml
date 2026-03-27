@@ -2772,6 +2772,8 @@
 
 <group name="Land_Underground_Storage_Barracks" lootmax="20">
 	<usage name="Military" />
+	<usage name="Police"/>
+	<usage name="Underground"/>
 	<container name="lootFloor" lootmax="10">
 	<category name="containers" />
 	<category name="clothes" />
@@ -2916,7 +2918,8 @@
 		</group>
 		<group name="Land_Underground_Storage_Workshop" lootmax="10">
 				<usage name="Military" />
-				<usage name="Industrial" />
+				<usage name="Police"/>
+				<usage name="Underground"/>
 				<container name="lootTools" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
@@ -2950,11 +2953,15 @@
 		</group>
 		<group name="Land_Underground_Storage_POX" lootmax="10">
 				<usage name="Military" />
+				<usage name="Police"/>
+				<usage name="Underground"/>
 				<container name="lootFloor" lootmax="10">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
 						<category name="explosives" />
+						<tag name="floor"/>
+						<tag name="shelves"/>
 						<point pos="-2.667725 0.745178 0.938353" range="0.340625" height="0.851563" flags="16" />
 						<point pos="-1.363281 1.730652 0.113769" range="0.203125" height="0.507813" />
 						<point pos="-1.726439 1.730652 3.882813" range="0.237500" height="0.593750" />
