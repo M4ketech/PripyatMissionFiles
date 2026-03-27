@@ -434,6 +434,7 @@
 		</group>
 			<group name="Land_fnr_Bunkerpart_03" lootmax="4">
 				<usage name="Military" />
+				<usage name="Underground"/>
 				<container name="lootFloor" lootmax="4">
 						<point pos="1.422210 0.384818 1.145160" range="0.1" height="1" /> 
 						<point pos="1.261079 0.384818 -1.210625" range="0.1" height="1" /> 
@@ -459,6 +460,7 @@
 		</group>
 		<group name="Land_fnr_Bunkerpart_37" lootmax="10">
 			<usage name="Military" />
+			<usage name="Underground"/>
 			<container name="lootFloor" lootmax="4">
 				<point pos="-3.440920 0.642943 2.091793" range="0.1" height="1" /> 
 				<point pos="-3.737690 1.472078 0.900621" range="0.1" height="1" /> 
@@ -488,6 +490,7 @@
 		</group>
 		<group name="Land_fnr_Bunkerpart_05" lootmax="4">
 			<usage name="Military" />
+			<usage name="Underground"/>
 			<container name="lootFloor" lootmax="4">
 				<point pos="-0.740112 1.288704 -2.027363" range="0.1" height="1" /> 
 				<point pos="0.022288 0.373436 -4.319480" range="0.1" height="1" /> 
@@ -504,6 +507,7 @@
 		</group>
 		<group name="Land_fnr_Bunkerpart_07" lootmax="4">
 			<usage name="Military" />
+			<usage name="Underground"/>
 			<container name="lootFloor" lootmax="4">
 				<point pos="-1.423034 0.334818 -1.163860" range="0.1" height="1" /> 
 				<point pos="-1.192281 1.341356 -1.123320" range="0.1" height="1" /> 
@@ -518,6 +522,7 @@
 		</group>
 		<group name="Land_fnr_Bunkerpart_28" lootmax="4">
 			<usage name="Military" />
+			<usage name="Underground"/>
 			<container name="lootFloor" lootmax="4">
 				<point pos="12.499708 3.613547 -3.354744" range="0.1" height="1" /> 
 				<point pos="-10.393859 0.892307 -0.307658" range="0.1" height="1" /> 
@@ -3104,11 +3109,16 @@
 				</dispatch>
 		</group>
 		<group name="Land_Underground_Storage_Hospital" lootmax="10">
-				<usage name="Military" />
 				<usage name="Medic" />
+				<usage name="Firefighter"/>
+				<usage name="Underground"/>
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
+						<category name="containers" />
 						<category name="clothes" />
+						<category name="explosives"/>
+						<tag name="floor"/>
+						<tag name="shelves"/>
 						<point pos="9.824950 0.859985 -3.071290" range="0.100000" height="0.250000" />
 						<point pos="9.788695 0.859985 -2.134279" range="0.134375" height="0.264999" />
 						<point pos="9.776732 0.479980 -1.469240" range="0.134375" height="0.264999" />
@@ -3132,12 +3142,14 @@
 				</container>
 		</group>
 		<group name="Land_Underground_Storage_Laboratory" lootmax="10">
-				<usage name="Military" />
 				<usage name="Medic" />
+				<usage name="Firefighter"/>
+				<usage name="Underground"/>
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
+						<category name="containers" />
 						<category name="clothes" />
-						<category name="weapons" />
+						<category name="explosives"/>
 						<point pos="-1.534424 0.849976 -0.304383" range="0.306250" height="0.765625" flags="16" />
 						<point pos="-0.645264 0.849976 -0.289978" range="0.443750" height="1.109375" flags="16" />
 						<point pos="0.729126 0.849976 -0.325195" range="0.409375" height="1.023438" flags="16" />
