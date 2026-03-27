@@ -2985,10 +2985,14 @@
 		</group>
 		<group name="Land_Underground_Storage_Ammo" lootmax="10">
 				<usage name="Military" />
+				<usage name="Police"/>
+				<usage name="Underground"/>
 				<container name="lootFloor" lootmax="10">
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="weapons" />
+						<tag name="floor"/>
+						<tag name="shelves"/>
 						<point pos="-7.081787 2.683472 3.486022" range="0.203125" height="0.507813" flags="16" />
 						<point pos="3.483398 1.938843 2.155152" range="0.134375" height="0.335938" />
 						<point pos="1.016113 3.464539 3.851196" range="0.237500" height="0.593750" />
@@ -3038,9 +3042,15 @@
 		</group>
 		<group name="Land_Underground_Storage_Ammo2" lootmax="20">
 				<usage name="Military" />
+				<usage name="Police"/>
+				<usage name="Underground"/>
 				<container name="lootWeapons" lootmax="10">
 						<category name="weapons" />
 						<category name="explosives" />
+						<category name="containers" />
+						<category name="clothes" />
+						<tag name="floor"/>
+						<tag name="shelves"/>
 						<point pos="5.923706 3.464539 -0.840759" range="0.134375" height="0.335938" />
 						<point pos="-5.946045 1.730652 2.402344" range="0.271875" height="0.679688" />
 						<point pos="0.507447 1.501953 -2.638366" range="0.306250" height="0.765625" />
