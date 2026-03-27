@@ -1281,26 +1281,26 @@
 				</container>
 		</group>	
 		<group name="Land_Jupiter_Building_Plant_1_5" lootmax="4">
-			<usage name="Industrial" />
-			<usage name="Military" />
-			<container name="lootFloor" lootmax="4">
-			<category name="tools" />
-			<category name="containers" />
-			<category name="clothes" />
-			<category name="weapons" />
-			<category name="explosives" />
-				<point pos="12.764969 2.020406 -0.561516" range="1" height="1" /> 
-				<point pos="10.382473 2.020406 0.823435" range="1" height="1" /> 
-				<point pos="6.053020 2.020406 -0.283940" range="1" height="1" /> 
-				<point pos="3.894863 2.020406 0.618710" range="1" height="1" /> 
-				<point pos="1.126976 2.020406 0.057750" range="1" height="1" /> 
-				<point pos="-1.676880 2.020406 0.928758" range="1" height="1" /> 
-				<point pos="-4.418707 2.020406 -0.741644" range="1" height="1" /> 
-				<point pos="-5.938014 2.020406 0.524566" range="1" height="1" /> 
-				<point pos="-12.442606 2.020406 -0.511047" range="1" height="1" /> 
-				<point pos="2.815022 2.020406 -0.097726" range="1" height="1" /> 
-	</container>
-</group>
+				<usage name="Industrial" />
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="4">
+					<category name="tools" />
+					<category name="containers" />
+					<category name="clothes" />
+					<category name="weapons" />
+					<category name="explosives" />
+					<point pos="12.764969 2.020406 -0.561516" range="1" height="1" /> 
+					<point pos="10.382473 2.020406 0.823435" range="1" height="1" /> 
+					<point pos="6.053020 2.020406 -0.283940" range="1" height="1" /> 
+					<point pos="3.894863 2.020406 0.618710" range="1" height="1" /> 
+					<point pos="1.126976 2.020406 0.057750" range="1" height="1" /> 
+					<point pos="-1.676880 2.020406 0.928758" range="1" height="1" /> 
+					<point pos="-4.418707 2.020406 -0.741644" range="1" height="1" /> 
+					<point pos="-5.938014 2.020406 0.524566" range="1" height="1" /> 
+					<point pos="-12.442606 2.020406 -0.511047" range="1" height="1" /> 
+					<point pos="2.815022 2.020406 -0.097726" range="1" height="1" /> 
+				</container>
+		</group>
 <!--New Jupiter Buildings GSC -->
 <group name="Land_Jupiter_Building_Plant_1_8" lootmax="14">
 	<usage name="Industrial" />
@@ -3242,9 +3242,15 @@
 		</group>
 		<group name="Land_Underground_Storage_POX2" lootmax="10">
 				<usage name="Military" />
-				<container name="lootWeapons" lootmax="10">
-						<category name="weapons" />
-						<category name="explosives" />
+				<usage name="Medic" />
+				<usage name="Firefighter"/>
+				<usage name="Underground"/>
+				<container name="lootFloor" lootmax="10">
+					<category name="containers" />
+					<category name="clothes" />
+					<category name="explosives"/>
+					<tag name="floor"/>
+					<tag name="shelves"/>
 						<point pos="-4.917115 1.119415 -3.873595" range="0.168750" height="0.421875" flags="16" />
 						<point pos="0.140747 0.942383 0.525208" range="0.237500" height="0.593750" flags="16" />
 						<point pos="-0.164062 0.942383 0.013794" range="0.271875" height="0.679688" flags="16" />
@@ -3259,11 +3265,11 @@
 						<point pos="-0.021363 0.596039 -4.200867" range="0.340625" height="0.851563" flags="16" />
 						<point pos="-0.233153 0.596039 -3.455139" range="0.237500" height="0.593750" flags="16" />
 				</container>
-				<dispatch dechance="1.000000">
+				<dispatch dechance="0.500000">
 						<proxy type="Mich2001Helmet" pos="-17.787476 0.658417 -2.219725" rpy="0.000000 -80.000000 0.000000" dechance="0.5" />
 						<proxy type="Mich2001Helmet" pos="-18.421021 0.658417 -2.406675" rpy="0.000000 -110.000000 0.000000" dechance="0.5" />
 				</dispatch>
-				<dispatch dechance="1.000000">
+				<dispatch dechance="0.500000">
 						<proxy type="Aug" pos="-12.238892 0.623556 3.656677" rpy="90.000000 -359.999969 0.000000" dechance="1.0" />
 				</dispatch>
 				<dispatch dechance="1.000000">
@@ -7753,7 +7759,6 @@
 </group>
 
 <group name="Land_Yantar_bunker_ekologov" lootmax="6">
-	
 	<usage name="Military" />
 	<usage name="Industrial" />
 	<container name="lootFloor" lootmax="6">
