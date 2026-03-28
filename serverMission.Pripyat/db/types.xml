@@ -194,13 +194,12 @@
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>2</min>
-        <quantmin>30</quantmin>
-        <quantmax>80</quantmax>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="AKS74U">
         <nominal>17</nominal>
@@ -12707,8 +12706,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="Underground"/>
     </type>
     <type name="Mag_AKM_30Rnd">
         <nominal>4</nominal>
@@ -13157,8 +13155,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <usage name="Underground"/>
     </type>
     <type name="Mag_SVD_10Rnd">
         <nominal>0</nominal>
@@ -14509,7 +14506,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Underground"/>
     </type>
     <type name="Nail">
         <nominal>0</nominal>
@@ -16930,8 +16927,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <usage name="Underground"/>
     </type>
     <type name="SVD">
         <nominal>1</nominal>
@@ -16957,18 +16953,16 @@
         <category name="weapons"/>
     </type>
     <type name="Saiga">
-        <nominal>12</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>5</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <usage name="Underground"/>
     </type>
     <type name="Saiga_Bttstck">
         <nominal>5</nominal>
